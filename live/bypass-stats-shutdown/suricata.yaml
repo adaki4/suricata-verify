@@ -1,0 +1,15 @@
+%YAML 1.1
+---
+
+outputs:
+  - stats:
+      enabled: yes
+      filename: stats.log
+      append: no
+      totals: yes
+      threads: no 
+
+af-packet:
+  - interface: default
+    bypass: yes
+  
